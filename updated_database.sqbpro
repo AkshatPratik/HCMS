@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/Rosha/Desktop/Hospital_Management_System-main/updated_database.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="125"/><column_width id="3" width="4497"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,6:maindoctor"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="appointment" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="69"/><column index="2" value="65"/><column index="3" value="68"/><column index="4" value="169"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="appointment_details" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="69"/><column index="2" value="142"/><column index="3" value="138"/><column index="4" value="145"/><column index="5" value="141"/><column index="6" value="169"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="department" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="137"/><column index="2" value="134"/><column index="3" value="79"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="doctor" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="68"/><column index="2" value="145"/><column index="3" value="141"/><column index="4" value="107"/><column index="5" value="162"/><column index="6" value="222"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="doctor_prescriptions_count" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths/><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="medication" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="52"/><column index="2" value="99"/><column index="3" value="105"/><column index="4" value="216"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="nurse" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="66"/><column index="2" value="143"/><column index="3" value="139"/><column index="4" value="105"/><column index="5" value="162"/><column index="6" value="213"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="patient" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="65"/><column index="2" value="142"/><column index="3" value="138"/><column index="4" value="165"/><column index="5" value="106"/><column index="6" value="162"/><column index="7" value="279"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="prescribes" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="68"/><column index="2" value="65"/><column index="3" value="52"/><column index="4" value="91"/><column index="5" value="69"/><column index="6" value="52"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="procedure" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="52"/><column index="2" value="99"/><column index="3" value="52"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="room" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="88"/><column index="2" value="104"/><column index="3" value="86"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="undergoes" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="65"/><column index="2" value="100"/><column index="3" value="91"/><column index="4" value="68"/><column index="5" value="66"/><column index="6" value="88"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">INSERT INTO patient (pat_first_name, pat_last_name, pat_insurance_no, pat_ph_no, pat_address) VALUES
+('Arun', 'Kumar', 'INS12345', '9876543210', 'Chennai'),
+('Bala', 'Murugan', 'INS12346', '9876543211', 'Madurai'),
+('Chitra', 'Lakshmi', 'INS12347', '9876543212', 'Coimbatore'),
+('Devi', 'Priya', 'INS12348', '9876543213', 'Trichy'),
+('Elango', 'Raja', 'INS12349', '9876543214', 'Salem'),
+('Farook', 'Mohamed', 'INS12350', '9876543215', 'Vellore'),
+('Gopal', 'Krishna', 'INS12351', '9876543216', 'Erode'),
+('Harish', 'Varun', 'INS12352', '9876543217', 'Tirunelveli'),
+('Indira', 'Gandhi', 'INS12353', '9876543218', 'Kanchipuram'),
+('Jayanth', 'Vikram', 'INS12354', '9876543219', 'Thoothukudi');
+
+INSERT INTO doctor (doc_first_name, doc_last_name, doc_ph_no, doc_address) VALUES
+('Karthik', 'Rajan', '9876500001', 'Chennai'),
+('Lakshmi', 'Narayanan', '9876500002', 'Madurai'),
+('Muthu', 'Vel', '9876500003', 'Coimbatore'),
+('Nandhini', 'Bala', '9876500004', 'Trichy'),
+('Omprakash', 'Ravi', '9876500005', 'Salem');
+
+INSERT INTO nurse (nur_first_name, nur_last_name, nur_ph_no, nur_address) VALUES
+('Pavithra', 'Shanthi', '9876501001', 'Vellore'),
+('Qadir', 'Hussain', '9876501002', 'Erode'),
+('Radha', 'Veni', '9876501003', 'Tirunelveli'),
+('Sita', 'Lakshmi', '9876501004', 'Kanchipuram'),
+('Thiru', 'Maran', '9876501005', 'Thoothukudi');
+
+INSERT INTO appointment (pat_id, doc_id, appointment_date) VALUES
+(21, 31, '2024-07-01'),
+(22, 32, '2024-07-02'),
+(23, 33, '2024-07-03'),
+(24, 34, '2024-07-04'),
+(25, 35, '2024-07-05');
+
+INSERT INTO room (room_no, room_type, available) VALUES
+(111, 'General', 1),
+(112, 'ICU', 1),
+(113, 'Private', 0),
+(114, 'General', 1),
+(115, 'ICU', 0);
+
+INSERT INTO medication (code, name, brand, description) VALUES
+(1, 'Paracetamol', 'MediCare', 'Pain reliever'),
+(2, 'Aspirin', 'HealthPharma', 'Blood thinner'),
+(3, 'Ibuprofen', 'WellnessMed', 'Anti-inflammatory');
+
+INSERT INTO department (department_id, name, head_id) VALUES
+(1, 'Cardiology', 31),
+(2, 'Neurology', 32);
+
+INSERT INTO procedure (code, name, cost) VALUES
+(11, 'Heart Surgery', 50000),
+(12, 'Brain MRI', 15000);
+
+INSERT INTO undergoes (pat_id, proc_code, u_date, doc_id, nur_id, room_no) VALUES
+(8, 2, '2024-07-10', 15, 15, 101);
+
+INSERT INTO prescribes (doc_id, pat_id,code, p_date, app_id, dose) VALUES
+(15, 8, 1, '2024-07-10', 1, 2);
+
+
+
+-- Retrieve distinct available rooms for patient procedures
+SELECT DISTINCT r.room_no, r.room_type
+FROM room r
+WHERE r.available = 1;
+
+-- Retrieve distinct medications prescribed to a specific patient
+SELECT DISTINCT m.name
+FROM medication m
+JOIN prescribes pr ON m.code = pr.code
+WHERE pr.pat_id = 8;  -- Change the patient ID as needed
+
+
+-- Get all doctors and their associated patients
+SELECT d.doc_first_name, d.doc_last_name, p.pat_first_name, p.pat_last_name
+FROM doctor d
+JOIN appointment a ON d.doc_id = a.doc_id
+JOIN patient p ON a.pat_id = p.pat_id;
+
+
+-- Get all nurses with procedures they assisted in
+SELECT n.nur_first_name, n.nur_last_name, p.pat_first_name, p.pat_last_name, pr.name AS procedure_name
+FROM nurse n
+JOIN undergoes u ON n.nur_id = u.nur_id
+JOIN patient p ON u.pat_id = p.pat_id
+JOIN procedure pr ON u.proc_code = pr.code;
+
+
+
+-- Create a view for appointments with patient and doctor details
+CREATE VIEW appointment_details AS
+SELECT a.app_id, p.pat_first_name, p.pat_last_name, d.doc_first_name, d.doc_last_name, a.appointment_date
+FROM appointment a
+JOIN patient p ON a.pat_id = p.pat_id
+JOIN doctor d ON a.doc_id = d.doc_id;
+
+
+-- Query the view to check the appointment details
+SELECT * FROM appointment_details;
+
+
+-- Create a view for the total number of prescriptions per doctor
+CREATE VIEW doctor_prescriptions_count AS
+SELECT doc_id, COUNT(*) AS total_prescriptions
+FROM prescribes
+GROUP BY doc_id;
+
+-- Query the view to check the total number of prescriptions per doctor
+SELECT * FROM doctor_prescriptions_count;
+
+
+-- Create a trigger to set room as available after a procedure is completed
+CREATE TRIGGER update_room_availability
+AFTER DELETE ON undergoes
+BEGIN
+    UPDATE room
+    SET available = 1
+    WHERE room_no = OLD.room_no;
+END;
+
+
+-- List all triggers in SQLite to check if the trigger was created
+SELECT name FROM sqlite_master WHERE type = 'trigger';
+
+-- Check the current availability of the room
+SELECT room_no, available FROM room WHERE room_no = 101;  -- Replace 101 with your room number
+
+
+
+
+-- Prevent deletion of a doctor if they have active appointments
+CREATE TRIGGER prevent_doctor_deletion
+BEFORE DELETE ON doctor
+FOR EACH ROW
+BEGIN
+    SELECT CASE
+        WHEN EXISTS (SELECT 1 FROM appointment WHERE doc_id = OLD.doc_id) THEN
+            RAISE (ABORT, 'Cannot delete doctor with active appointments')
+    END;
+END;
+
+-- Check if there are active appointments for the doctor
+SELECT * FROM appointment WHERE doc_id = 15;  -- Replace 15 with the doctor's ID you want to check
+
+
+-- Try deleting the doctor with active appointments
+DELETE FROM doctor WHERE doc_id = 15;  -- Replace 15 with the doctor's ID you want to delete
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</sql><current_tab id="0"/></tab_sql></sqlb_project>
